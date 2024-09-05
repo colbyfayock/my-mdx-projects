@@ -1,0 +1,84 @@
+---
+title: 'Notebook'
+layout: 'project'
+topic: 'Productivity'
+description: 'Create a notebook app to add, manage, and organize a group of notes.'
+---
+
+import ProjectHeader from '@/components/ProjectHeader';
+import ProjectContent from '@/components/ProjectContent';
+import ProjectSidebar from '@/components/ProjectSidebar';
+import Checklist from '@/components/Checklist';
+import LoginRequired from '@/components/LoginRequired';
+
+<ProjectHeader>
+
+# Notebook
+
+Create a <strong className="text-brand-blue-medium">notebook app</strong> to add, manage, and organize a <strong className="text-brand-purple">group of notes</strong>.
+
+</ProjectHeader>
+
+<ProjectContent>
+
+## Brief
+
+Taking notes is a great way to make sure we keep track of our thoughts or remember the important takeaways from a meeting. Being able to easily manage them and organize them is important for finding them later!
+
+## Level 1
+
+The first requirement of a notebook is being able to take the notes. This can be pretty simple to start, where really you need some sort of input that collects what you write and stores it somewhere for later.
+
+Create form to add new notes and view them in a list.
+
+<LoginRequired className="mt-10">
+
+## Level 2
+
+In order to find your notes later, you want some way of organizing those notes and a way to look them up. That includes adding categories or a tagging system as well as a UI to make searches from.
+
+Add the ability to tag or categorize notes and an input to search through them with.
+
+## Level 3
+
+Whether we realize it or not, we can find connections between our thoughts and more importantly our notes, where we can take advantage of that network of thoughts for our notebook.
+
+Add Roam Research-inpsired linking of notes to create a network of thoughts.
+
+</LoginRequired>
+
+</ProjectContent>
+
+<ProjectSidebar>
+
+## To Do
+
+<Checklist items={[
+  {
+    label: 'Create a form',
+  },
+  {
+    label: 'Store new notes',
+  },
+  {
+    label: 'List notes',
+  },
+  {
+    label: 'Add tags or categories',
+  },
+  {
+    label: 'Add note search',
+  },
+  {
+    label: 'Add note network',
+  }
+]} />
+
+## Toolbox
+- Gatsby Brain
+- Fuse.js
+
+## Resources
+- [bit.ly/31wI45V](https://bit.ly/31wI45V)
+
+</ProjectSidebar>
