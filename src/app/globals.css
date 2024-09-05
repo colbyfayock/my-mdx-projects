@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-spacejelly-gray-dark: theme('colors.spacejelly-gray-dark');
+  --color-brand-blue-medium: theme('colors.brand-blue-medium');
+  --color-brand-blue-dark: theme('colors.brand-blue-dark');
+  --color-brand-purple: theme('colors.brand-purple');
+  --color-brand-purple-light: theme('colors.brand-purple-light');
+  --color-brand-gray-light: theme('colors.brand-gray-light');
+  --color-brand-gray-medium: theme('colors.brand-gray-medium');
+}
